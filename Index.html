@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATS Resume Expert</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>ATS Tracking System</h1>
+    </header>
+
+    <main>
+        <section class="input-section">
+            <label for="input">Job Description:</label><br>
+            <textarea id="input" name="input" rows="4" cols="50"></textarea><br><br>
+            <input type="file" id="resumeFile" name="resumeFile" accept=".pdf">
+            <label for="resumeFile">Upload your resume (PDF)...</label><br><br>
+            <button id="tellMeButton">Tell Me About the Resume</button><br><br>
+            <button id="percentageMatchButton">Percentage Match</button><br><br>
+        </section>
+
+        <section id="responseSection">
+            <!-- Response from the server will be displayed here -->
+        </section>
+    </main>
+
+    <script src="scripts.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
